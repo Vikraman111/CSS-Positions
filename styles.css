@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  height: 1200px;
+  position: relative;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  background-color: lightblue;
+  border: 2px solid blue;
+  text-align: center;
+  line-height: 100px;
+  font-size: 18px;
+}
+
+#box1 {
+  background-color: lightcoral;
+}
+
+#box2 {
+  background-color: lightgreen;
+}
+
+#box3 {
+  background-color: lightgoldenrodyellow;
+}
+
+.controls {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.controls div {
+  margin-bottom: 10px;
+}

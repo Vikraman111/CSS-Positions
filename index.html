@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Property Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Position Property Visualizer</h1>
+
+    <div id="box1" class="box">Box 1</div>
+    <div id="box2" class="box">Box 2</div>
+    <div id="box3" class="box">Box 3</div>
+
+    <div class="controls">
+      <div>
+        <label for="position1">Box 1 Position:</label>
+        <select id="position1" onchange="updatePosition('box1', this.value)">
+          <option value="static">static</option>
+          <option value="relative">relative</option>
+          <option value="absolute">absolute</option>
+          <option value="sticky">sticky</option>
+          <option value="fixed">fixed</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="position2">Box 2 Position:</label>
+        <select id="position2" onchange="updatePosition('box2', this.value)">
+          <option value="static">static</option>
+          <option value="relative">relative</option>
+          <option value="absolute">absolute</option>
+          <option value="sticky">sticky</option>
+          <option value="fixed">fixed</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="position3">Box 3 Position:</label>
+        <select id="position3" onchange="updatePosition('box3', this.value)">
+          <option value="static">static</option>
+          <option value="relative">relative</option>
+          <option value="absolute">absolute</option>
+          <option value="sticky">sticky</option>
+          <option value="fixed">fixed</option>
+        </select>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
